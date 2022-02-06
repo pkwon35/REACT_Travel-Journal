@@ -33,7 +33,7 @@ const DATA = [
     },
     {   
         id:4,
-        title: 'Sydney Opera House',
+        title: 'Opera House',
         location: 'Australia',
     googleMapsUrl: 'https://goo.gl/maps/FU2R8i9ouzoSkhWz5',
     startDate: '27 Jan, 2022',
