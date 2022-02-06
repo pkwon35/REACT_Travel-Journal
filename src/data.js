@@ -1,5 +1,4 @@
-
-export default [
+const DATA = [
     {   
         id:1,
         title: "Rice Terraces of the Philippine Cordilleras",
@@ -34,7 +33,7 @@ export default [
     },
     {   
         id:4,
-        title: 'Sydney Opera House',
+        title: 'Opera House',
         location: 'Australia',
     googleMapsUrl: 'https://goo.gl/maps/FU2R8i9ouzoSkhWz5',
     startDate: '27 Jan, 2022',
@@ -42,6 +41,9 @@ export default [
     description:
     "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
     imageUrl: "https://images.unsplash.com/photo-1595740229246-cfdda61917c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3lkbmV5JTIwb3BlcmElMjBob3VzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    },
-    
+    }
 ]
+
+
+
+export default DATA

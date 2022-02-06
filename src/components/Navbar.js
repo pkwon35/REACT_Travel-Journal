@@ -1,6 +1,6 @@
 import React from "react"
 import globe from "../images/globe.png"
-import addicon from "../images/addicon.png"
+// import addicon from "../images/addicon.png"
 const Navbar = () => {
   return (
     <div className="navbar">

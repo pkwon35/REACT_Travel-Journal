@@ -5,11 +5,11 @@ const Journals = ({journal}) => {
     <div>
         <div className="journal">
             <div className="imgContainer">
-                <img src={journal.imageUrl} className="journal--image"/>
+                <img src={journal.imageUrl} className="journal--image" alt={journal.title}/>
             </div>
             <div className="info">
                 <div className="journal--line1">
-                    <img src={pinpoint} className="journal--line1--pinpoint"/>
+                    <img src={pinpoint} className="journal--line1--pinpoint" alt="pinpoint"/>
                     <h1 className="journal--line1--location">{journal.location}</h1>
                     <a href={journal.googleMapsUrl} className="journal--line1--maps" target="_blank">View on Google Maps</a>
                 </div>
